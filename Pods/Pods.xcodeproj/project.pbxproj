@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028C1D8F1A8CF33379428F7B7E5B2A2B /* RSUnifiedCodeValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5ED43563AA4531375F9F62E4AB0217 /* RSUnifiedCodeValidator.swift */; };
+		0BB89E8C9338ECBDBD52B499B815560C /* RSCodeDataMatrixGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88552B7E0D24FBE916DCD36781E5739D /* RSCodeDataMatrixGenerator.swift */; };
+		1C73D6CD65BF336BFAC67B60FF02AB5B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925814B336B76F0C40F89C28BF164FB0 /* StringExtension.swift */; };
+		28BC539FE5065D28EBB5E85B8085F64B /* Pods-BarCode2D-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BD86AA3854541C3542E9821E924B2E44 /* Pods-BarCode2D-dummy.m */; };
+		2C5BB17437AD314D5A614345DB137875 /* RSCodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C037C48FDACFEDB13E8CE9E42A1F622 /* RSCodeReaderViewController.swift */; };
+		3980DA313D827BE9C1D170165391C6A9 /* RSCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03334A8456E0B44E325200D56237E110 /* RSCode39Generator.swift */; };
+		44AB11AFDABF8F91CB39D10A3E245572 /* ContextMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = AD23323F9BC251CF5E8773C89D1905AC /* ContextMaker.m */; };
+		44BA28BEB836B91C89E3A54F87BEF890 /* RSBarcodes_Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A6E695EDA5D5C383D40B07331DFB6E9 /* RSBarcodes_Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50B12F3D003D3480C07727E71CAF7A27 /* Pods-BarCode2D-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CACDC138FAB90B44F30DA50C1C25C8C /* Pods-BarCode2D-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EA29DC03B8FF9BC8C5F6B949C56A45C /* RSCode93Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF3F771EED83DE494C4A74225B068F5C /* RSCode93Generator.swift */; };
+		62DD3A4F088F31AB2F7281501C3FCA4C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */; };
+		67B295E2198B8BBD8E959CAE2A2BC2C5 /* RSITF14Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE081E7D80BDD23D41C20AA1DE1890D /* RSITF14Generator.swift */; };
+		685C6BAC269292F490BEFA10BF954A09 /* RSITFGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1034651CCF0D735085B16F5F7176761D /* RSITFGenerator.swift */; };
+		71D0FA32C6A6AE624D2662554BAB7920 /* RSUPCEGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A237D1D09D5E4B1DE2C1836AB2CC5A0 /* RSUPCEGenerator.swift */; };
+		758FA7E56BA6D0202E5395C5EB4A8F3C /* RSUnifiedCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211A4A4439F31658FB2FCBA4CA6233FA /* RSUnifiedCodeGenerator.swift */; };
+		77FAEDC91A60FCC6B477DBD067E8E317 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D95CD7E68A1744441B7B68FCED25984 /* AVFoundation.framework */; };
+		7DF508AA68DBAFE04E9910257C813300 /* RSBarcodes-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = B0D40AB0F5CB791677F0C663790DC6A9 /* RSBarcodes-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FC251C0957C3267626B1F8A5E284FC2 /* RSCode39Mod43Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77826C6244DF3FEF47F3FD5FA74C92EB /* RSCode39Mod43Generator.swift */; };
+		9EE35EC8740BDD06F7D5B61C172C0647 /* RSCornersLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2539268B2757B5FD21C3D60A16755 /* RSCornersLayer.swift */; };
+		A0D130BCEDB0B73754A29FD598C814F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */; };
+		AAF28946EC14E34F57BB7A2B36A8E0CD /* RSFocusMarkLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BB9036960B6746086918BDA0F0BF469 /* RSFocusMarkLayer.swift */; };
+		AD34F7F03554520373A8C2ABA5D1788C /* RSEANGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26D1B77DD4B939480DA7DE8DAB7D56EC /* RSEANGenerator.swift */; };
+		B0D8DC567A84CBFA5A0877A8C943618B /* RSCode128Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67204A5CBE6185E80201F150DA6F8321 /* RSCode128Generator.swift */; };
+		B21A3E4E9886F0561285DDC130A79C01 /* RSCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94222D46AC5D00B4845632BA522305A /* RSCodeGenerator.swift */; };
+		B991A9BEFD3C2BFCAE38477D99DEC32E /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1C5B217D5617FE6D67DD887D33F914B /* CoreImage.framework */; };
+		C7E5DB805E5C0BC228DE1F6AE0EE1018 /* RSExtendedCode39Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 149A813FCA88DF5031E8399B794FEE87 /* RSExtendedCode39Generator.swift */; };
+		DF0038284C922ACC47B6830C5A3DA21B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BEF0DB552DD62DCBBE1F8D829119A285 /* QuartzCore.framework */; };
+		E5E0FFD2BB1CB35F1019C74425FF6860 /* RSCodeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86C450539E03AD95F34CBD36C993DED0 /* RSCodeLayer.swift */; };
+		EFB67D1533986756217CC6F71EE9839D /* ContextMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 50EEBD47BEFBFB707A69D20C1F7A0513 /* ContextMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F26FE5A277828805CD4ED141B0AF52BB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7330F14BF0CD6106566F319BE38004F5 /* UIColorExtension.swift */; };
+		FC1C2DC0D4F847887C88629878CA2E57 /* RSBarcodes_Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6313741E19B5BE56C06F5621A8080D /* RSBarcodes_Swift-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4699BF180553EEF14E8B5DEE1BDC1537 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA4A72254D1C82B63E07A3B0FDE55D4D;
+			remoteInfo = RSBarcodes_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03334A8456E0B44E325200D56237E110 /* RSCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Generator.swift; path = Source/RSCode39Generator.swift; sourceTree = "<group>"; };
+		1034651CCF0D735085B16F5F7176761D /* RSITFGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITFGenerator.swift; path = Source/RSITFGenerator.swift; sourceTree = "<group>"; };
+		149A813FCA88DF5031E8399B794FEE87 /* RSExtendedCode39Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSExtendedCode39Generator.swift; path = Source/RSExtendedCode39Generator.swift; sourceTree = "<group>"; };
+		176439208705131E84E881877CF845CF /* RSBarcodes_Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RSBarcodes_Swift.modulemap; sourceTree = "<group>"; };
+		1BB9036960B6746086918BDA0F0BF469 /* RSFocusMarkLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSFocusMarkLayer.swift; path = Source/RSFocusMarkLayer.swift; sourceTree = "<group>"; };
+		1CACDC138FAB90B44F30DA50C1C25C8C /* Pods-BarCode2D-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BarCode2D-umbrella.h"; sourceTree = "<group>"; };
+		211A4A4439F31658FB2FCBA4CA6233FA /* RSUnifiedCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeGenerator.swift; path = Source/RSUnifiedCodeGenerator.swift; sourceTree = "<group>"; };
+		26D1B77DD4B939480DA7DE8DAB7D56EC /* RSEANGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSEANGenerator.swift; path = Source/RSEANGenerator.swift; sourceTree = "<group>"; };
+		29A8A12C5B24749B5C73CFCE4F817033 /* Pods_BarCode2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BarCode2D.framework; path = "Pods-BarCode2D.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EA2539268B2757B5FD21C3D60A16755 /* RSCornersLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCornersLayer.swift; path = Source/RSCornersLayer.swift; sourceTree = "<group>"; };
+		50EEBD47BEFBFB707A69D20C1F7A0513 /* ContextMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ContextMaker.h; path = Source/ContextMaker.h; sourceTree = "<group>"; };
+		67204A5CBE6185E80201F150DA6F8321 /* RSCode128Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode128Generator.swift; path = Source/RSCode128Generator.swift; sourceTree = "<group>"; };
+		7305BDE8524554DC3AE5F609415C493E /* Pods-BarCode2D-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarCode2D-frameworks.sh"; sourceTree = "<group>"; };
+		7319872528956360D59EB798734CCE5A /* Pods-BarCode2D-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BarCode2D-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7330F14BF0CD6106566F319BE38004F5 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = Source/UIColorExtension.swift; sourceTree = "<group>"; };
+		77826C6244DF3FEF47F3FD5FA74C92EB /* RSCode39Mod43Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode39Mod43Generator.swift; path = Source/RSCode39Mod43Generator.swift; sourceTree = "<group>"; };
+		7A237D1D09D5E4B1DE2C1836AB2CC5A0 /* RSUPCEGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUPCEGenerator.swift; path = Source/RSUPCEGenerator.swift; sourceTree = "<group>"; };
+		7C037C48FDACFEDB13E8CE9E42A1F622 /* RSCodeReaderViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeReaderViewController.swift; path = Source/RSCodeReaderViewController.swift; sourceTree = "<group>"; };
+		86C450539E03AD95F34CBD36C993DED0 /* RSCodeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeLayer.swift; path = Source/RSCodeLayer.swift; sourceTree = "<group>"; };
+		88552B7E0D24FBE916DCD36781E5739D /* RSCodeDataMatrixGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeDataMatrixGenerator.swift; path = Source/RSCodeDataMatrixGenerator.swift; sourceTree = "<group>"; };
+		8FE081E7D80BDD23D41C20AA1DE1890D /* RSITF14Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSITF14Generator.swift; path = Source/RSITF14Generator.swift; sourceTree = "<group>"; };
+		925814B336B76F0C40F89C28BF164FB0 /* StringExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringExtension.swift; path = Source/StringExtension.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95BD8503F25C808B021BCC8F0316F463 /* Pods-BarCode2D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarCode2D.release.xcconfig"; sourceTree = "<group>"; };
+		97BD98CA67AF558E787597EB3E7EA0F9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99BB3D0F96B02165E55A36D8CEFCEE9F /* RSBarcodes_Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBarcodes_Swift-prefix.pch"; sourceTree = "<group>"; };
+		9A6E695EDA5D5C383D40B07331DFB6E9 /* RSBarcodes_Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RSBarcodes_Swift-umbrella.h"; sourceTree = "<group>"; };
+		9C5ED43563AA4531375F9F62E4AB0217 /* RSUnifiedCodeValidator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSUnifiedCodeValidator.swift; path = Source/RSUnifiedCodeValidator.swift; sourceTree = "<group>"; };
+		9D95CD7E68A1744441B7B68FCED25984 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		A1DB1C398F2BE2755948C27D9E7045C6 /* Pods-BarCode2D-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BarCode2D-resources.sh"; sourceTree = "<group>"; };
+		AB4EEF1E0D4466543871C4392BED1CC5 /* Pods-BarCode2D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BarCode2D.debug.xcconfig"; sourceTree = "<group>"; };
+		AD23323F9BC251CF5E8773C89D1905AC /* ContextMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ContextMaker.m; path = Source/ContextMaker.m; sourceTree = "<group>"; };
+		B0D40AB0F5CB791677F0C663790DC6A9 /* RSBarcodes-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "RSBarcodes-Bridging-Header.h"; path = "Source/RSBarcodes-Bridging-Header.h"; sourceTree = "<group>"; };
+		B1C5B217D5617FE6D67DD887D33F914B /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RSBarcodes_Swift.xcconfig; sourceTree = "<group>"; };
+		B30504470E042F3008D5E5C10693D015 /* Pods-BarCode2D-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BarCode2D-acknowledgements.plist"; sourceTree = "<group>"; };
+		B94222D46AC5D00B4845632BA522305A /* RSCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCodeGenerator.swift; path = Source/RSCodeGenerator.swift; sourceTree = "<group>"; };
+		BC6313741E19B5BE56C06F5621A8080D /* RSBarcodes_Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RSBarcodes_Swift-dummy.m"; sourceTree = "<group>"; };
+		BD86AA3854541C3542E9821E924B2E44 /* Pods-BarCode2D-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BarCode2D-dummy.m"; sourceTree = "<group>"; };
+		BEB2C106C2CFD5815A43F09C40422D8C /* RSBarcodes_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RSBarcodes_Swift.framework; path = RSBarcodes_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF0DB552DD62DCBBE1F8D829119A285 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDC4E4513B95388323145909E5D2AD42 /* Pods-BarCode2D.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BarCode2D.modulemap"; sourceTree = "<group>"; };
+		E5DAFBBEC2463BD3399EADF5E70CBA96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3F771EED83DE494C4A74225B068F5C /* RSCode93Generator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RSCode93Generator.swift; path = Source/RSCode93Generator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DB155663AFF1BC0940650AEEF12E2E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FAEDC91A60FCC6B477DBD067E8E317 /* AVFoundation.framework in Frameworks */,
+				B991A9BEFD3C2BFCAE38477D99DEC32E /* CoreImage.framework in Frameworks */,
+				A0D130BCEDB0B73754A29FD598C814F6 /* Foundation.framework in Frameworks */,
+				DF0038284C922ACC47B6830C5A3DA21B /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9466DBCDA50C826705971B4739DA263C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62DD3A4F088F31AB2F7281501C3FCA4C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D645AA25568ADB41CE7EAE600BCEBA7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D130B619C19C00E99507156ECB449EC /* RSBarcodes_Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				523BC2E4D500A2EF29E43A00C2C663A0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D130B619C19C00E99507156ECB449EC /* RSBarcodes_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				50EEBD47BEFBFB707A69D20C1F7A0513 /* ContextMaker.h */,
+				AD23323F9BC251CF5E8773C89D1905AC /* ContextMaker.m */,
+				B0D40AB0F5CB791677F0C663790DC6A9 /* RSBarcodes-Bridging-Header.h */,
+				67204A5CBE6185E80201F150DA6F8321 /* RSCode128Generator.swift */,
+				03334A8456E0B44E325200D56237E110 /* RSCode39Generator.swift */,
+				77826C6244DF3FEF47F3FD5FA74C92EB /* RSCode39Mod43Generator.swift */,
+				EF3F771EED83DE494C4A74225B068F5C /* RSCode93Generator.swift */,
+				88552B7E0D24FBE916DCD36781E5739D /* RSCodeDataMatrixGenerator.swift */,
+				B94222D46AC5D00B4845632BA522305A /* RSCodeGenerator.swift */,
+				86C450539E03AD95F34CBD36C993DED0 /* RSCodeLayer.swift */,
+				7C037C48FDACFEDB13E8CE9E42A1F622 /* RSCodeReaderViewController.swift */,
+				4EA2539268B2757B5FD21C3D60A16755 /* RSCornersLayer.swift */,
+				26D1B77DD4B939480DA7DE8DAB7D56EC /* RSEANGenerator.swift */,
+				149A813FCA88DF5031E8399B794FEE87 /* RSExtendedCode39Generator.swift */,
+				1BB9036960B6746086918BDA0F0BF469 /* RSFocusMarkLayer.swift */,
+				8FE081E7D80BDD23D41C20AA1DE1890D /* RSITF14Generator.swift */,
+				1034651CCF0D735085B16F5F7176761D /* RSITFGenerator.swift */,
+				211A4A4439F31658FB2FCBA4CA6233FA /* RSUnifiedCodeGenerator.swift */,
+				9C5ED43563AA4531375F9F62E4AB0217 /* RSUnifiedCodeValidator.swift */,
+				7A237D1D09D5E4B1DE2C1836AB2CC5A0 /* RSUPCEGenerator.swift */,
+				925814B336B76F0C40F89C28BF164FB0 /* StringExtension.swift */,
+				7330F14BF0CD6106566F319BE38004F5 /* UIColorExtension.swift */,
+				B6503422038CB434F698C91AB51D39B7 /* Support Files */,
+			);
+			name = RSBarcodes_Swift;
+			path = RSBarcodes_Swift;
+			sourceTree = "<group>";
+		};
+		523BC2E4D500A2EF29E43A00C2C663A0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9D95CD7E68A1744441B7B68FCED25984 /* AVFoundation.framework */,
+				B1C5B217D5617FE6D67DD887D33F914B /* CoreImage.framework */,
+				D578F889E4E42B56E96820BBAC9223EF /* Foundation.framework */,
+				BEF0DB552DD62DCBBE1F8D829119A285 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				0D645AA25568ADB41CE7EAE600BCEBA7 /* Pods */,
+				F331F08849B98E13F01375E61EFE829F /* Products */,
+				E17B6E3BB67F7BBFC840FA65B16E838C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A7E70D63EE5D984FDB5C91C6B51712C /* Pods-BarCode2D */ = {
+			isa = PBXGroup;
+			children = (
+				97BD98CA67AF558E787597EB3E7EA0F9 /* Info.plist */,
+				DDC4E4513B95388323145909E5D2AD42 /* Pods-BarCode2D.modulemap */,
+				7319872528956360D59EB798734CCE5A /* Pods-BarCode2D-acknowledgements.markdown */,
+				B30504470E042F3008D5E5C10693D015 /* Pods-BarCode2D-acknowledgements.plist */,
+				BD86AA3854541C3542E9821E924B2E44 /* Pods-BarCode2D-dummy.m */,
+				7305BDE8524554DC3AE5F609415C493E /* Pods-BarCode2D-frameworks.sh */,
+				A1DB1C398F2BE2755948C27D9E7045C6 /* Pods-BarCode2D-resources.sh */,
+				1CACDC138FAB90B44F30DA50C1C25C8C /* Pods-BarCode2D-umbrella.h */,
+				AB4EEF1E0D4466543871C4392BED1CC5 /* Pods-BarCode2D.debug.xcconfig */,
+				95BD8503F25C808B021BCC8F0316F463 /* Pods-BarCode2D.release.xcconfig */,
+			);
+			name = "Pods-BarCode2D";
+			path = "Target Support Files/Pods-BarCode2D";
+			sourceTree = "<group>";
+		};
+		B6503422038CB434F698C91AB51D39B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5DAFBBEC2463BD3399EADF5E70CBA96 /* Info.plist */,
+				176439208705131E84E881877CF845CF /* RSBarcodes_Swift.modulemap */,
+				B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */,
+				BC6313741E19B5BE56C06F5621A8080D /* RSBarcodes_Swift-dummy.m */,
+				99BB3D0F96B02165E55A36D8CEFCEE9F /* RSBarcodes_Swift-prefix.pch */,
+				9A6E695EDA5D5C383D40B07331DFB6E9 /* RSBarcodes_Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RSBarcodes_Swift";
+			sourceTree = "<group>";
+		};
+		E17B6E3BB67F7BBFC840FA65B16E838C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A7E70D63EE5D984FDB5C91C6B51712C /* Pods-BarCode2D */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F331F08849B98E13F01375E61EFE829F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29A8A12C5B24749B5C73CFCE4F817033 /* Pods_BarCode2D.framework */,
+				BEB2C106C2CFD5815A43F09C40422D8C /* RSBarcodes_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		59524F0A3A0A2362EDE97969F71FBC9F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50B12F3D003D3480C07727E71CAF7A27 /* Pods-BarCode2D-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9923B2676ECB79C6704A0FA494E27422 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB67D1533986756217CC6F71EE9839D /* ContextMaker.h in Headers */,
+				7DF508AA68DBAFE04E9910257C813300 /* RSBarcodes-Bridging-Header.h in Headers */,
+				44BA28BEB836B91C89E3A54F87BEF890 /* RSBarcodes_Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		975A246D6853136DA2D519FEBFF7ADC2 /* Pods-BarCode2D */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A9A180C835924F5A5C727BCD5EBE15 /* Build configuration list for PBXNativeTarget "Pods-BarCode2D" */;
+			buildPhases = (
+				A5E378DDB2F076158024029BE62DF746 /* Sources */,
+				9466DBCDA50C826705971B4739DA263C /* Frameworks */,
+				59524F0A3A0A2362EDE97969F71FBC9F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC0B9F17472A83BC40559F30775E6C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-BarCode2D";
+			productName = "Pods-BarCode2D";
+			productReference = 29A8A12C5B24749B5C73CFCE4F817033 /* Pods_BarCode2D.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA4A72254D1C82B63E07A3B0FDE55D4D /* RSBarcodes_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B33F138B74ABB46563ABFFBF768F9D /* Build configuration list for PBXNativeTarget "RSBarcodes_Swift" */;
+			buildPhases = (
+				23870481401F2352DB152B804B7AD5BC /* Sources */,
+				6DB155663AFF1BC0940650AEEF12E2E7 /* Frameworks */,
+				9923B2676ECB79C6704A0FA494E27422 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSBarcodes_Swift;
+			productName = RSBarcodes_Swift;
+			productReference = BEB2C106C2CFD5815A43F09C40422D8C /* RSBarcodes_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = F331F08849B98E13F01375E61EFE829F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				975A246D6853136DA2D519FEBFF7ADC2 /* Pods-BarCode2D */,
+				CA4A72254D1C82B63E07A3B0FDE55D4D /* RSBarcodes_Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23870481401F2352DB152B804B7AD5BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44AB11AFDABF8F91CB39D10A3E245572 /* ContextMaker.m in Sources */,
+				FC1C2DC0D4F847887C88629878CA2E57 /* RSBarcodes_Swift-dummy.m in Sources */,
+				B0D8DC567A84CBFA5A0877A8C943618B /* RSCode128Generator.swift in Sources */,
+				3980DA313D827BE9C1D170165391C6A9 /* RSCode39Generator.swift in Sources */,
+				7FC251C0957C3267626B1F8A5E284FC2 /* RSCode39Mod43Generator.swift in Sources */,
+				5EA29DC03B8FF9BC8C5F6B949C56A45C /* RSCode93Generator.swift in Sources */,
+				0BB89E8C9338ECBDBD52B499B815560C /* RSCodeDataMatrixGenerator.swift in Sources */,
+				B21A3E4E9886F0561285DDC130A79C01 /* RSCodeGenerator.swift in Sources */,
+				E5E0FFD2BB1CB35F1019C74425FF6860 /* RSCodeLayer.swift in Sources */,
+				2C5BB17437AD314D5A614345DB137875 /* RSCodeReaderViewController.swift in Sources */,
+				9EE35EC8740BDD06F7D5B61C172C0647 /* RSCornersLayer.swift in Sources */,
+				AD34F7F03554520373A8C2ABA5D1788C /* RSEANGenerator.swift in Sources */,
+				C7E5DB805E5C0BC228DE1F6AE0EE1018 /* RSExtendedCode39Generator.swift in Sources */,
+				AAF28946EC14E34F57BB7A2B36A8E0CD /* RSFocusMarkLayer.swift in Sources */,
+				67B295E2198B8BBD8E959CAE2A2BC2C5 /* RSITF14Generator.swift in Sources */,
+				685C6BAC269292F490BEFA10BF954A09 /* RSITFGenerator.swift in Sources */,
+				758FA7E56BA6D0202E5395C5EB4A8F3C /* RSUnifiedCodeGenerator.swift in Sources */,
+				028C1D8F1A8CF33379428F7B7E5B2A2B /* RSUnifiedCodeValidator.swift in Sources */,
+				71D0FA32C6A6AE624D2662554BAB7920 /* RSUPCEGenerator.swift in Sources */,
+				1C73D6CD65BF336BFAC67B60FF02AB5B /* StringExtension.swift in Sources */,
+				F26FE5A277828805CD4ED141B0AF52BB /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5E378DDB2F076158024029BE62DF746 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28BC539FE5065D28EBB5E85B8085F64B /* Pods-BarCode2D-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC0B9F17472A83BC40559F30775E6C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RSBarcodes_Swift;
+			target = CA4A72254D1C82B63E07A3B0FDE55D4D /* RSBarcodes_Swift */;
+			targetProxy = 4699BF180553EEF14E8B5DEE1BDC1537 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		12914D756594D15C6F2CA12FE5F89F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		19780A890A31E2338ED2D842C7444A9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBarcodes_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = RSBarcodes_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25B785964F256EA52950DB6D582B4602 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B234D69C06780CC5C538268A112DB555 /* RSBarcodes_Swift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RSBarcodes_Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RSBarcodes_Swift/RSBarcodes_Swift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = RSBarcodes_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7A604EE2E75353B42AF94D5E27BB61D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4EEF1E0D4466543871C4392BED1CC5 /* Pods-BarCode2D.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BarCode2D/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BarCode2D/Pods-BarCode2D.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BarCode2D;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF788663E272A837FF62457EA3EDF86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95BD8503F25C808B021BCC8F0316F463 /* Pods-BarCode2D.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BarCode2D/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BarCode2D/Pods-BarCode2D.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BarCode2D;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E72E7977875C2D251FC62736BBDDC389 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B33F138B74ABB46563ABFFBF768F9D /* Build configuration list for PBXNativeTarget "RSBarcodes_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19780A890A31E2338ED2D842C7444A9E /* Debug */,
+				25B785964F256EA52950DB6D582B4602 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12914D756594D15C6F2CA12FE5F89F1B /* Debug */,
+				E72E7977875C2D251FC62736BBDDC389 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A9A180C835924F5A5C727BCD5EBE15 /* Build configuration list for PBXNativeTarget "Pods-BarCode2D" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7A604EE2E75353B42AF94D5E27BB61D /* Debug */,
+				CF788663E272A837FF62457EA3EDF86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		3104C4591EB34371008A8983 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3104C4581EB34371008A8983 /* AppDelegate.swift */; };
-		3104C45B1EB34371008A8983 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3104C45A1EB34371008A8983 /* ViewController.swift */; };
 		3104C45E1EB34371008A8983 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3104C45C1EB34371008A8983 /* Main.storyboard */; };
 		3104C4601EB34371008A8983 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3104C45F1EB34371008A8983 /* Assets.xcassets */; };
 		3104C4631EB34371008A8983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3104C4611EB34371008A8983 /* LaunchScreen.storyboard */; };
+		312E74721EC5C90000B4AA3C /* BarcodeReaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E74711EC5C90000B4AA3C /* BarcodeReaderViewController.swift */; };
+		312E74741EC5C9D500B4AA3C /* BarcodeDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E74731EC5C9D500B4AA3C /* BarcodeDisplayViewController.swift */; };
+		F399C788A7CFFC16488F424D /* Pods_BarCode2D.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FFB79B8980F53FE63667283 /* Pods_BarCode2D.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3104C4551EB34371008A8983 /* BarCode2D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCode2D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3104C4581EB34371008A8983 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3104C45A1EB34371008A8983 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3104C45D1EB34371008A8983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3104C45F1EB34371008A8983 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3104C4621EB34371008A8983 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3104C4641EB34371008A8983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		312E74711EC5C90000B4AA3C /* BarcodeReaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeReaderViewController.swift; sourceTree = "<group>"; };
+		312E74731EC5C9D500B4AA3C /* BarcodeDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeDisplayViewController.swift; sourceTree = "<group>"; };
+		8FFB79B8980F53FE63667283 /* Pods_BarCode2D.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarCode2D.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B78C8300DF92AC358A9B2308 /* Pods-BarCode2D.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCode2D.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BarCode2D/Pods-BarCode2D.debug.xcconfig"; sourceTree = "<group>"; };
+		FF9AF8F612683595618D94A8 /* Pods-BarCode2D.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarCode2D.release.xcconfig"; path = "Pods/Target Support Files/Pods-BarCode2D/Pods-BarCode2D.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F399C788A7CFFC16488F424D /* Pods_BarCode2D.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AC393E0799C2F83560B4417 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FFB79B8980F53FE63667283 /* Pods_BarCode2D.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3104C44C1EB34371008A8983 = {
 			isa = PBXGroup;
 			children = (
 				3104C4571EB34371008A8983 /* BarCode2D */,
 				3104C4561EB34371008A8983 /* Products */,
+				F0630F7284BC098F8318B872 /* Pods */,
+				1AC393E0799C2F83560B4417 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +72,47 @@
 			isa = PBXGroup;
 			children = (
 				3104C4581EB34371008A8983 /* AppDelegate.swift */,
-				3104C45A1EB34371008A8983 /* ViewController.swift */,
-				3104C45C1EB34371008A8983 /* Main.storyboard */,
+				3133AFE31EC5CC8D00349142 /* Model */,
+				3133AFE11EC5CC6200349142 /* Controller */,
+				3133AFE21EC5CC6E00349142 /* View */,
 				3104C45F1EB34371008A8983 /* Assets.xcassets */,
-				3104C4611EB34371008A8983 /* LaunchScreen.storyboard */,
 				3104C4641EB34371008A8983 /* Info.plist */,
 			);
 			path = BarCode2D;
+			sourceTree = "<group>";
+		};
+		3133AFE11EC5CC6200349142 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				312E74711EC5C90000B4AA3C /* BarcodeReaderViewController.swift */,
+				312E74731EC5C9D500B4AA3C /* BarcodeDisplayViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3133AFE21EC5CC6E00349142 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3104C45C1EB34371008A8983 /* Main.storyboard */,
+				3104C4611EB34371008A8983 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		3133AFE31EC5CC8D00349142 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F0630F7284BC098F8318B872 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78C8300DF92AC358A9B2308 /* Pods-BarCode2D.debug.xcconfig */,
+				FF9AF8F612683595618D94A8 /* Pods-BarCode2D.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +122,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3104C4671EB34371008A8983 /* Build configuration list for PBXNativeTarget "BarCode2D" */;
 			buildPhases = (
+				F7F291B779A3C66A82600A00 /* [CP] Check Pods Manifest.lock */,
 				3104C4511EB34371008A8983 /* Sources */,
 				3104C4521EB34371008A8983 /* Frameworks */,
 				3104C4531EB34371008A8983 /* Resources */,
+				056CE997A0D914D7D03A568A /* [CP] Embed Pods Frameworks */,
+				ED90D284F3C3123498251DC5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -91,11 +145,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "Jakkawad Chaiplee";
 				TargetAttributes = {
 					3104C4541EB34371008A8983 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W6X8G863UY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,13 +186,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		056CE997A0D914D7D03A568A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarCode2D/Pods-BarCode2D-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED90D284F3C3123498251DC5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BarCode2D/Pods-BarCode2D-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F291B779A3C66A82600A00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3104C4511EB34371008A8983 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3104C45B1EB34371008A8983 /* ViewController.swift in Sources */,
 				3104C4591EB34371008A8983 /* AppDelegate.swift in Sources */,
+				312E74741EC5C9D500B4AA3C /* BarcodeDisplayViewController.swift in Sources */,
+				312E74721EC5C90000B4AA3C /* BarcodeReaderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +360,11 @@
 		};
 		3104C4681EB34371008A8983 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78C8300DF92AC358A9B2308 /* Pods-BarCode2D.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6X8G863UY;
 				INFOPLIST_FILE = BarCode2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny-juof.BarCode2D";
@@ -268,8 +375,11 @@
 		};
 		3104C4691EB34371008A8983 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF9AF8F612683595618D94A8 /* Pods-BarCode2D.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W6X8G863UY;
 				INFOPLIST_FILE = BarCode2D/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sunny-juof.BarCode2D";
@@ -297,6 +407,7 @@
 				3104C4691EB34371008A8983 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
